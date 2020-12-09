@@ -139,6 +139,8 @@ void callback(char* topic, byte* payload, unsigned int length){
   free_payload(&payload_in); // make sure to free, since it uses malloc
   // note: calling decode_payload will keep adding metrics to the decoded
   // payload if we do not free_payload when we're done.
+  payload_in = org_eclipse_tahu_protobuf_Payload_init_zero;
+  // for some reason i have to assign payload_in here, or the system crashes...
 }
 
 // ============== Sparkplug B publish birth certs ==============================
