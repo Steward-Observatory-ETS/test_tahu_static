@@ -12,7 +12,10 @@
  ********************************************************************************/
 
 /*
- Modified by M. Sibayan 11/2020 to remove printf and related
+ Modified by M. Sibayan 11/2020 to make it compatable with a Teensy 4.1 and Arduino
+ - remove printf and related
+ - remove time calls in get_current_timestamp
+ + added function set_tahu_time to allow setting timestamp
 */
 #include <stdio.h>
 #include <stdlib.h>
