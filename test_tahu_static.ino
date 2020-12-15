@@ -1,4 +1,11 @@
 /*
+Copyright (c) 2020
+Steward Observatory Engineering & Technical Services, University of Arizona
+
+This program and the accompanying materials are made available under the
+terms of the Eclipse Public License 2.0 which is available at
+http://www.eclipse.org/legal/epl-2.0.
+
 This is a test program designed to respond to commands to turn on/off the LED
 on a Teensy 4.1 using Sparkplug B encoded MQTT messages.
 
