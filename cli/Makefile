@@ -1,15 +1,16 @@
-#/********************************************************************************
-# * Copyright (c) 2014, 2018 Cirrus Link Solutions and others
-# *
-# * This program and the accompanying materials are made available under the
-# * terms of the Eclipse Public License 2.0 which is available at
-# * http://www.eclipse.org/legal/epl-2.0.
-# *
-# * SPDX-License-Identifier: EPL-2.0
-# *
-# * Contributors:
-# *   Cirrus Link Solutions - initial implementation
-# ********************************************************************************/
+# Copyright 2019
+# Steward Observatory Engineering & Technical Services, University of Arizona
+#
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
 
 LIBS = -Llib -L/usr/local/lib -lmosquitto
 CC = gcc
